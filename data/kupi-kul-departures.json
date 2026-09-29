@@ -1,27 +1,776 @@
 {
   "source": "Kupi",
   "airport": "KUL",
-  "updatedAt": "2026-09-29T04:34:02.047Z",
+  "updatedAt": "2026-09-29T04:36:30.915Z",
   "flights": [
     {
-      "flight": "12",
-      "airline": "8G",
+      "flight": "C21",
+      "airline": "C21",
       "destination": "DIL",
       "scheduled": "12:00",
       "estimated": ""
     },
     {
-      "flight": "13",
+      "flight": "AK 512",
+      "airline": "AirAsia",
+      "destination": "HAN",
+      "scheduled": "12:00",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 5172",
+      "airline": "AirAsia",
+      "destination": "LBU",
+      "scheduled": "12:10",
+      "estimated": ""
+    },
+    {
+      "flight": "QZ 121",
+      "airline": "Indonesia AirAsia",
+      "destination": "KNO",
+      "scheduled": "12:10",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 727",
+      "airline": "AirAsia",
+      "destination": "SIN",
+      "scheduled": "12:40",
+      "estimated": ""
+    },
+    {
+      "flight": "KR 3782",
+      "airline": "KR",
+      "destination": "KTI",
+      "scheduled": "12:50",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 121",
+      "airline": "AirAsia",
+      "destination": "KNO",
+      "scheduled": "12:10",
+      "estimated": ""
+    },
+    {
+      "flight": "OD 586",
+      "airline": "Batik Air Malaysia",
+      "destination": "KBV",
+      "scheduled": "12:15",
+      "estimated": ""
+    },
+    {
+      "flight": "OD 870",
+      "airline": "Batik Air Malaysia",
+      "destination": "NRT",
+      "scheduled": "12:45",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 868",
       "airline": "AirAsia",
       "destination": "KBV",
       "scheduled": "13:40",
       "estimated": ""
     },
     {
-      "flight": "14",
+      "flight": "EK 3434",
+      "airline": "Emirates",
+      "destination": "PEN",
+      "scheduled": "12:25",
+      "estimated": ""
+    },
+    {
+      "flight": "EY 5639",
+      "airline": "Etihad Airways",
+      "destination": "PEN",
+      "scheduled": "12:25",
+      "estimated": ""
+    },
+    {
+      "flight": "D7",
+      "airline": "AirAsia X",
+      "destination": "ALA",
+      "scheduled": "12:45",
+      "estimated": ""
+    },
+    {
+      "flight": "Z2",
+      "airline": "Z2",
+      "destination": "MNL",
+      "scheduled": "13:05",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 4650",
+      "airline": "Malaysia Airlines",
+      "destination": "RGN",
+      "scheduled": "12:05",
+      "estimated": ""
+    },
+    {
+      "flight": "TK 7927",
+      "airline": "Turkish Airlines",
+      "destination": "KCH",
+      "scheduled": "12:30",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 5946",
+      "airline": "Malaysia Airlines",
+      "destination": "MNL",
+      "scheduled": "12:30",
+      "estimated": ""
+    },
+    {
+      "flight": "B2",
+      "airline": "B2",
+      "destination": "KCH",
+      "scheduled": "12:30",
+      "estimated": ""
+    },
+    {
+      "flight": "FY 7528",
+      "airline": "FY",
+      "destination": "KCH",
+      "scheduled": "12:30",
+      "estimated": ""
+    },
+    {
+      "flight": "UL 2130",
+      "airline": "SriLankan Airlines",
+      "destination": "KCH",
+      "scheduled": "12:30",
+      "estimated": ""
+    },
+    {
+      "flight": "GA 9293",
+      "airline": "Garuda Indonesia",
+      "destination": "KCH",
+      "scheduled": "12:30",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 384",
+      "airline": "AirAsia",
+      "destination": "CGK",
+      "scheduled": "13:20",
+      "estimated": ""
+    },
+    {
+      "flight": "OD 7102",
       "airline": "Batik Air Malaysia",
       "destination": "PEN",
       "scheduled": "14:00",
+      "estimated": ""
+    },
+    {
+      "flight": "EY 7085",
+      "airline": "Etihad Airways",
+      "destination": "CGK",
+      "scheduled": "12:50",
+      "estimated": ""
+    },
+    {
+      "flight": "SV 6213",
+      "airline": "Saudia",
+      "destination": "CGK",
+      "scheduled": "12:50",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 5893",
+      "airline": "Malaysia Airlines",
+      "destination": "CGK",
+      "scheduled": "12:50",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 2536",
+      "airline": "Malaysia Airlines",
+      "destination": "KCH",
+      "scheduled": "13:45",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 5644",
+      "airline": "AirAsia",
+      "destination": "MYY",
+      "scheduled": "13:45",
+      "estimated": ""
+    },
+    {
+      "flight": "GA 9271",
+      "airline": "Garuda Indonesia",
+      "destination": "CGK",
+      "scheduled": "13:45",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 824",
+      "airline": "AirAsia",
+      "destination": "HKT",
+      "scheduled": "12:30",
+      "estimated": ""
+    },
+    {
+      "flight": "PR 526",
+      "airline": "Philippine Airlines",
+      "destination": "MNL",
+      "scheduled": "12:30",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 136",
+      "airline": "AirAsia",
+      "destination": "HKG",
+      "scheduled": "13:45",
+      "estimated": ""
+    },
+    {
+      "flight": "KT 172",
+      "airline": "KT",
+      "destination": "SAI",
+      "scheduled": "13:45",
+      "estimated": ""
+    },
+    {
+      "flight": "OD 7203",
+      "airline": "Batik Air Malaysia",
+      "destination": "LGK",
+      "scheduled": "14:00",
+      "estimated": ""
+    },
+    {
+      "flight": "ID 5193",
+      "airline": "Batik Air",
+      "destination": "DPS",
+      "scheduled": "14:00",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 2530",
+      "airline": "Malaysia Airlines",
+      "destination": "KCH",
+      "scheduled": "12:30",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 600",
+      "airline": "AirAsia",
+      "destination": "ALA",
+      "scheduled": "12:45",
+      "estimated": ""
+    },
+    {
+      "flight": "ZH 328",
+      "airline": "ZH",
+      "destination": "SZX",
+      "scheduled": "12:50",
+      "estimated": ""
+    },
+    {
+      "flight": "FY 7498",
+      "airline": "FY",
+      "destination": "HKT",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "PG 4516",
+      "airline": "PG",
+      "destination": "HKT",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "UL 2054",
+      "airline": "SriLankan Airlines",
+      "destination": "HKT",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "G8",
+      "airline": "G8",
+      "destination": "HKT",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "BA 8185",
+      "airline": "BA",
+      "destination": "HKT",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "WY 5602",
+      "airline": "Oman Air",
+      "destination": "HKT",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "AY 6728",
+      "airline": "AY",
+      "destination": "HKT",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "TG 4782",
+      "airline": "Thai Airways",
+      "destination": "HKT",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "QR 5015",
+      "airline": "Qatar Airways",
+      "destination": "HKT",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 6116",
+      "airline": "AirAsia",
+      "destination": "PEN",
+      "scheduled": "13:25",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 884",
+      "airline": "AirAsia",
+      "destination": "DMK",
+      "scheduled": "13:30",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 640",
+      "airline": "AirAsia",
+      "destination": "DAD",
+      "scheduled": "14:00",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 5208",
+      "airline": "AirAsia",
+      "destination": "KCH",
+      "scheduled": "12:25",
+      "estimated": ""
+    },
+    {
+      "flight": "MK 647",
+      "airline": "MK",
+      "destination": "MRU",
+      "scheduled": "12:50",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 545",
+      "airline": "AirAsia",
+      "destination": "PQC",
+      "scheduled": "12:50",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 101",
+      "airline": "AirAsia",
+      "destination": "KMG",
+      "scheduled": "13:10",
+      "estimated": ""
+    },
+    {
+      "flight": "OD 1634",
+      "airline": "Batik Air Malaysia",
+      "destination": "KCH",
+      "scheduled": "13:30",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 5210",
+      "airline": "AirAsia",
+      "destination": "KCH",
+      "scheduled": "13:50",
+      "estimated": ""
+    },
+    {
+      "flight": "C31",
+      "airline": "C31",
+      "destination": "BKK",
+      "scheduled": "12:10",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 6324",
+      "airline": "AirAsia",
+      "destination": "LGK",
+      "scheduled": "12:50",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 6034",
+      "airline": "AirAsia",
+      "destination": "JHB",
+      "scheduled": "13:15",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 6318",
+      "airline": "AirAsia",
+      "destination": "LGK",
+      "scheduled": "13:40",
+      "estimated": ""
+    },
+    {
+      "flight": "GA 8942",
+      "airline": "Garuda Indonesia",
+      "destination": "DPS",
+      "scheduled": "12:25",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 4601",
+      "airline": "Malaysia Airlines",
+      "destination": "MRU",
+      "scheduled": "12:50",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 212",
+      "airline": "AirAsia",
+      "destination": "MEL",
+      "scheduled": "13:25",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 856",
+      "airline": "AirAsia",
+      "destination": "CNX",
+      "scheduled": "13:30",
+      "estimated": ""
+    },
+    {
+      "flight": "VJ 906",
+      "airline": "VietJet Air",
+      "destination": "HAN",
+      "scheduled": "12:30",
+      "estimated": ""
+    },
+    {
+      "flight": "TK 7689",
+      "airline": "Turkish Airlines",
+      "destination": "LGK",
+      "scheduled": "13:00",
+      "estimated": "14:00"
+    },
+    {
+      "flight": "AK 5138",
+      "airline": "AirAsia",
+      "destination": "BKI",
+      "scheduled": "13:00",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 6440",
+      "airline": "AirAsia",
+      "destination": "KBR",
+      "scheduled": "13:15",
+      "estimated": ""
+    },
+    {
+      "flight": "OD 7004",
+      "airline": "Batik Air Malaysia",
+      "destination": "BKI",
+      "scheduled": "14:00",
+      "estimated": ""
+    },
+    {
+      "flight": "OD 193",
+      "airline": "Batik Air Malaysia",
+      "destination": "PER",
+      "scheduled": "14:00",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 1426",
+      "airline": "Malaysia Airlines",
+      "destination": "KBR",
+      "scheduled": "13:05",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 6042",
+      "airline": "AirAsia",
+      "destination": "JHB",
+      "scheduled": "14:00",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 6040",
+      "airline": "AirAsia",
+      "destination": "JHB",
+      "scheduled": "12:05",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 5140",
+      "airline": "AirAsia",
+      "destination": "BKI",
+      "scheduled": "12:05",
+      "estimated": ""
+    },
+    {
+      "flight": "PR 3534",
+      "airline": "Philippine Airlines",
+      "destination": "BKI",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "QR 5443",
+      "airline": "Qatar Airways",
+      "destination": "BKI",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "A9",
+      "airline": "A9",
+      "destination": "BKI",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "HY 7577",
+      "airline": "HY",
+      "destination": "BKI",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "OD 1004",
+      "airline": "Batik Air Malaysia",
+      "destination": "BKI",
+      "scheduled": "13:30",
+      "estimated": ""
+    },
+    {
+      "flight": "OD 2104",
+      "airline": "Batik Air Malaysia",
+      "destination": "PEN",
+      "scheduled": "12:25",
+      "estimated": ""
+    },
+    {
+      "flight": "MF 848",
+      "airline": "MF",
+      "destination": "XMN",
+      "scheduled": "13:50",
+      "estimated": ""
+    },
+    {
+      "flight": "MF 8688",
+      "airline": "MF",
+      "destination": "CKG",
+      "scheduled": "13:50",
+      "estimated": ""
+    },
+    {
+      "flight": "OD 540",
+      "airline": "Batik Air Malaysia",
+      "destination": "HKT",
+      "scheduled": "12:00",
+      "estimated": ""
+    },
+    {
+      "flight": "TK 7687",
+      "airline": "Turkish Airlines",
+      "destination": "HKT",
+      "scheduled": "12:00",
+      "estimated": ""
+    },
+    {
+      "flight": "FM 7222",
+      "airline": "FM",
+      "destination": "PVG",
+      "scheduled": "14:00",
+      "estimated": ""
+    },
+    {
+      "flight": "CZ 350",
+      "airline": "China Southern",
+      "destination": "CAN",
+      "scheduled": "14:00",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 1208",
+      "airline": "Malaysia Airlines",
+      "destination": "AOR",
+      "scheduled": "13:05",
+      "estimated": ""
+    },
+    {
+      "flight": "AK 278",
+      "airline": "AirAsia",
+      "destination": "BWN",
+      "scheduled": "13:45",
+      "estimated": ""
+    },
+    {
+      "flight": "FY 7490",
+      "airline": "FY",
+      "destination": "BKK",
+      "scheduled": "12:10",
+      "estimated": ""
+    },
+    {
+      "flight": "AY 6630",
+      "airline": "AY",
+      "destination": "BKK",
+      "scheduled": "12:10",
+      "estimated": ""
+    },
+    {
+      "flight": "WY 5699",
+      "airline": "Oman Air",
+      "destination": "BKK",
+      "scheduled": "12:10",
+      "estimated": ""
+    },
+    {
+      "flight": "TG 4712",
+      "airline": "Thai Airways",
+      "destination": "BKK",
+      "scheduled": "12:10",
+      "estimated": ""
+    },
+    {
+      "flight": "PG 4504",
+      "airline": "PG",
+      "destination": "BKK",
+      "scheduled": "12:10",
+      "estimated": ""
+    },
+    {
+      "flight": "QR 4481",
+      "airline": "Qatar Airways",
+      "destination": "BKK",
+      "scheduled": "12:10",
+      "estimated": ""
+    },
+    {
+      "flight": "KL 4108",
+      "airline": "KL",
+      "destination": "DPS",
+      "scheduled": "12:25",
+      "estimated": ""
+    },
+    {
+      "flight": "QR 5403",
+      "airline": "Qatar Airways",
+      "destination": "DPS",
+      "scheduled": "12:25",
+      "estimated": ""
+    },
+    {
+      "flight": "FY 7397",
+      "airline": "FY",
+      "destination": "DPS",
+      "scheduled": "12:25",
+      "estimated": ""
+    },
+    {
+      "flight": "BA 8165",
+      "airline": "BA",
+      "destination": "DPS",
+      "scheduled": "12:25",
+      "estimated": ""
+    },
+    {
+      "flight": "GA 821",
+      "airline": "Garuda Indonesia",
+      "destination": "CGK",
+      "scheduled": "12:50",
+      "estimated": ""
+    },
+    {
+      "flight": "VJ 826",
+      "airline": "VietJet Air",
+      "destination": "SGN",
+      "scheduled": "13:35",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 788",
+      "airline": "Malaysia Airlines",
+      "destination": "BKK",
+      "scheduled": "12:10",
+      "estimated": ""
+    },
+    {
+      "flight": "TG 416",
+      "airline": "Thai Airways",
+      "destination": "BKK",
+      "scheduled": "13:20",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 851",
+      "airline": "Malaysia Airlines",
+      "destination": "DPS",
+      "scheduled": "12:25",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 2614",
+      "airline": "Malaysia Airlines",
+      "destination": "BKI",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 794",
+      "airline": "Malaysia Airlines",
+      "destination": "HKT",
+      "scheduled": "12:55",
+      "estimated": ""
+    },
+    {
+      "flight": "OD 2203",
+      "airline": "Batik Air Malaysia",
+      "destination": "LGK",
+      "scheduled": "13:00",
+      "estimated": ""
+    },
+    {
+      "flight": "CX 722",
+      "airline": "Cathay Pacific",
+      "destination": "HKG",
+      "scheduled": "13:10",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 721",
+      "airline": "Malaysia Airlines",
+      "destination": "CGK",
+      "scheduled": "13:45",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 1436",
+      "airline": "Malaysia Airlines",
+      "destination": "LGK",
+      "scheduled": "13:10",
+      "estimated": ""
+    },
+    {
+      "flight": "MH 623",
+      "airline": "Malaysia Airlines",
+      "destination": "SIN",
+      "scheduled": "13:25",
       "estimated": ""
     }
   ]
