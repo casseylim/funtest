@@ -1,15 +1,13 @@
-name: Update KUL flight data
+name: Test Kupi KUL flight data
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,41 +16,43 @@ jobs:
           node-version: 20
       - run: npm install playwright
       - run: npx playwright install --with-deps chromium
-      - name: Fetch FlightStats departures and arrivals
+      - name: Fetch Kupi departures and arrivals
         run: |
           node <<'NODE'
           const { chromium } = require('playwright');
           const fs = require('fs');
           (async () => {
             const browser = await chromium.launch({headless:true});
-            for (const kind of ['departures','arrivals']) {
+            for (const kind of ['departure','arrival']) {
               const page = await browser.newPage();
-              await page.goto('https://www.flightstats.com/v2/flight-tracker/'+kind+'/KUL', {waitUntil:'domcontentloaded', timeout:60000});
-              await page.waitForTimeout(8000);
+              await page.goto('https://www.kupi.com/en/explore/malaysia/kuala-lumpur/kuala-lumpur-international-airport/timetable?direction='+kind, {waitUntil:'domcontentloaded', timeout:60000});
+              await page.waitForTimeout(10000);
               const rows = await page.evaluate(() => {
                 const lines = document.body.innerText.split(/\n+/).map(x=>x.trim()).filter(Boolean);
                 const out=[];
                 for(let i=0;i<lines.length;i++) {
                   const m=lines[i].match(/^([A-Z0-9]{2,3})\s?(\d{1,5})$/);
                   if(!m) continue;
-                  const nearby=lines.slice(i,i+8);
+                  const nearby=lines.slice(Math.max(0,i-3),i+10);
                   const times=nearby.filter(x=>/^\d{1,2}:\d{2}$/.test(x));
                   const codes=nearby.filter(x=>/^[A-Z]{3}$/.test(x));
-                  out.push({flight:m[1]+' '+m[2],scheduled:times[0]||'',estimated:times[1]||'',destination:codes[0]||''});
+                  const airline=nearby.find(x=>/^[A-Z][A-Za-z .&-]{2,30}$/.test(x)&&!['Departure','Arrival','On time','On schedule','Departed','Arrived'].includes(x))||'';
+                  out.push({flight:m[1]+' '+m[2],airline,scheduled:times[0]||'',estimated:times[1]||'',destination:codes[0]||''});
                 }
                 return out.filter((x,i,a)=>i===a.findIndex(y=>y.flight===x.flight&&y.scheduled===x.scheduled));
               });
               fs.mkdirSync('data',{recursive:true});
-              fs.writeFileSync('data/kul-'+kind+'.json', JSON.stringify({updatedAt:new Date().toISOString(),source:'FlightStats',flights:rows},null,2));
+              fs.writeFileSync('data/kupi-kul-'+(kind==='departure'?'departures':'arrivals')+'.json', JSON.stringify({testedAt:new Date().toISOString(),source:'Kupi',flights:rows},null,2));
+              console.log(kind, rows.length, 'rows');
               await page.close();
             }
             await browser.close();
           })();
           NODE
-      - name: Publish JSON
+      - name: Publish test JSON
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/kul-departures.json data/kul-arrivals.json
-          git diff --cached --quiet || git commit -m 'Update KUL arrivals and departures'
+          git add data/kupi-kul-departures.json data/kupi-kul-arrivals.json
+          git diff --cached --quiet || git commit -m 'Test Kupi KUL feed'
           git push
