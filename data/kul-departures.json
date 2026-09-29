@@ -1,181 +1,156 @@
 {
-  "updatedAt": "2026-09-29T03:48:14.297Z",
+  "updatedAt": "2026-09-29T04:08:39.901Z",
   "source": "FlightStats",
   "flights": [
     {
       "flight": "TG 418",
       "scheduled": "20:55",
       "estimated": "22:05",
-      "destination": "BKK",
-      "status": ""
+      "destination": "BKK"
     },
     {
       "flight": "KU 6938",
       "scheduled": "20:55",
       "estimated": "22:05",
-      "destination": "BKK",
-      "status": ""
+      "destination": "BKK"
     },
     {
       "flight": "MH 5862",
       "scheduled": "20:55",
       "estimated": "22:05",
-      "destination": "BKK",
-      "status": ""
+      "destination": "BKK"
     },
     {
       "flight": "NH 5982",
       "scheduled": "20:55",
       "estimated": "22:05",
-      "destination": "BKK",
-      "status": ""
+      "destination": "BKK"
     },
     {
       "flight": "OS 8634",
       "scheduled": "20:55",
       "estimated": "22:05",
-      "destination": "BKK",
-      "status": ""
+      "destination": "BKK"
     },
     {
       "flight": "CV 9521",
       "scheduled": "04:05",
       "estimated": "07:55",
-      "destination": "HKG",
-      "status": ""
+      "destination": "HKG"
     },
     {
       "flight": "AK 5744",
       "scheduled": "06:00",
       "estimated": "08:50",
-      "destination": "TWU",
-      "status": ""
-    },
-    {
-      "flight": "AK 890",
-      "scheduled": "06:00",
-      "estimated": "07:10",
-      "destination": "DMK",
-      "status": ""
+      "destination": "TWU"
     },
     {
       "flight": "AK 5246",
       "scheduled": "06:00",
       "estimated": "08:10",
-      "destination": "BTU",
-      "status": ""
+      "destination": "BTU"
     },
     {
       "flight": "AK 5108",
       "scheduled": "06:00",
       "estimated": "08:35",
-      "destination": "BKI",
-      "status": ""
+      "destination": "BKI"
     },
     {
-      "flight": "AK 516",
-      "scheduled": "06:05",
-      "estimated": "08:25",
-      "destination": "HAN",
-      "status": ""
+      "flight": "AK 890",
+      "scheduled": "06:00",
+      "estimated": "07:10",
+      "destination": "DMK"
     },
     {
       "flight": "AK 5876",
       "scheduled": "06:05",
       "estimated": "08:05",
-      "destination": "SBW",
-      "status": ""
+      "destination": "SBW"
     },
     {
-      "flight": "AK 11",
-      "scheduled": "06:10",
-      "estimated": "07:25",
-      "destination": "MAA",
-      "status": ""
-    },
-    {
-      "flight": "AK 126",
-      "scheduled": "06:10",
-      "estimated": "10:20",
-      "destination": "SZX",
-      "status": ""
+      "flight": "AK 516",
+      "scheduled": "06:05",
+      "estimated": "08:25",
+      "destination": "HAN"
     },
     {
       "flight": "AK 701",
       "scheduled": "06:10",
       "estimated": "07:15",
-      "destination": "SIN",
-      "status": ""
+      "destination": "SIN"
+    },
+    {
+      "flight": "AK 126",
+      "scheduled": "06:10",
+      "estimated": "10:20",
+      "destination": "SZX"
+    },
+    {
+      "flight": "AK 11",
+      "scheduled": "06:10",
+      "estimated": "07:25",
+      "destination": "MAA"
     },
     {
       "flight": "AK 5192",
       "scheduled": "06:15",
       "estimated": "09:05",
-      "destination": "SDK",
-      "status": ""
+      "destination": "SDK"
     },
     {
       "flight": "AK 5651",
       "scheduled": "06:30",
       "estimated": "08:55",
-      "destination": "MYY",
-      "status": ""
+      "destination": "MYY"
     },
     {
       "flight": "AK 6124",
       "scheduled": "06:40",
       "estimated": "07:40",
-      "destination": "PEN",
-      "status": ""
+      "destination": "PEN"
     },
     {
       "flight": "MXD 398",
       "scheduled": "06:45",
       "estimated": "08:00",
-      "destination": "CGK",
-      "status": ""
+      "destination": "CGK"
     },
     {
       "flight": "AI 2385",
       "scheduled": "06:50",
       "estimated": "10:00",
-      "destination": "DEL",
-      "status": ""
+      "destination": "DEL"
     },
     {
       "flight": "BR 3713",
       "scheduled": "06:50",
       "estimated": "10:00",
-      "destination": "DEL",
-      "status": ""
+      "destination": "DEL"
     },
     {
       "flight": "MH 6114",
       "scheduled": "06:55",
       "estimated": "09:25",
-      "destination": "LBU",
-      "status": ""
-    },
-    {
-      "flight": "AK 330",
-      "scheduled": "07:00",
-      "estimated": "10:20",
-      "destination": "UPG",
-      "status": ""
+      "destination": "LBU"
     },
     {
       "flight": "AK 380",
       "scheduled": "07:00",
       "estimated": "08:05",
-      "destination": "CGK",
-      "status": ""
+      "destination": "CGK"
+    },
+    {
+      "flight": "AK 330",
+      "scheduled": "07:00",
+      "estimated": "10:20",
+      "destination": "UPG"
     },
     {
       "flight": "AK 5202",
       "scheduled": "07:00",
       "estimated": "08:50",
-      "destination": "KCH",
-      "status": ""
+      "destination": "KCH"
     }
   ]
 }
