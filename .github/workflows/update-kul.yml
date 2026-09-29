@@ -1,4 +1,4 @@
-name: Update KUL departures
+name: Update KUL flight data
 
 on:
   schedule:
@@ -18,32 +18,34 @@ jobs:
           node-version: 20
       - run: npm install playwright
       - run: npx playwright install --with-deps chromium
-      - name: Fetch FlightStats departures
+      - name: Fetch FlightStats departures and arrivals
         run: |
           node <<'NODE'
           const { chromium } = require('playwright');
           const fs = require('fs');
           (async () => {
             const browser = await chromium.launch({headless:true});
-            const page = await browser.newPage();
-            await page.goto('https://www.flightstats.com/v2/flight-tracker/departures/KUL', {waitUntil:'domcontentloaded', timeout:60000});
-            await page.waitForTimeout(8000);
-            const rows = await page.evaluate(() => {
-              const text = document.body.innerText;
-              const lines = text.split(/\n+/).map(x => x.trim()).filter(Boolean);
-              const out = [];
-              for (let i=0; i<lines.length; i++) {
-                const m = lines[i].match(/^([A-Z0-9]{2,3})\s?(\d{1,5})$/);
-                if (!m) continue;
-                const nearby = lines.slice(i, i+8);
-                const times = nearby.filter(x => /^\d{1,2}:\d{2}$/.test(x));
-                const codes = nearby.filter(x => /^[A-Z]{3}$/.test(x));
-                out.push({flight:m[1]+' '+m[2], scheduled:times[0]||'', estimated:times[1]||'', destination:codes[0]||'', status:nearby.find(x => /scheduled|delayed|departed|cancelled|landed/i.test(x))||''});
-              }
-              return out.filter((x,i,a)=>i===a.findIndex(y=>y.flight===x.flight&&y.scheduled===x.scheduled));
-            });
-            fs.mkdirSync('data', {recursive:true});
-            fs.writeFileSync('data/kul-departures.json', JSON.stringify({updatedAt:new Date().toISOString(), source:'FlightStats', flights:rows}, null, 2));
+            for (const kind of ['departures','arrivals']) {
+              const page = await browser.newPage();
+              await page.goto('https://www.flightstats.com/v2/flight-tracker/'+kind+'/KUL', {waitUntil:'domcontentloaded', timeout:60000});
+              await page.waitForTimeout(8000);
+              const rows = await page.evaluate(() => {
+                const lines = document.body.innerText.split(/\n+/).map(x=>x.trim()).filter(Boolean);
+                const out=[];
+                for(let i=0;i<lines.length;i++) {
+                  const m=lines[i].match(/^([A-Z0-9]{2,3})\s?(\d{1,5})$/);
+                  if(!m) continue;
+                  const nearby=lines.slice(i,i+8);
+                  const times=nearby.filter(x=>/^\d{1,2}:\d{2}$/.test(x));
+                  const codes=nearby.filter(x=>/^[A-Z]{3}$/.test(x));
+                  out.push({flight:m[1]+' '+m[2],scheduled:times[0]||'',estimated:times[1]||'',destination:codes[0]||''});
+                }
+                return out.filter((x,i,a)=>i===a.findIndex(y=>y.flight===x.flight&&y.scheduled===x.scheduled));
+              });
+              fs.mkdirSync('data',{recursive:true});
+              fs.writeFileSync('data/kul-'+kind+'.json', JSON.stringify({updatedAt:new Date().toISOString(),source:'FlightStats',flights:rows},null,2));
+              await page.close();
+            }
             await browser.close();
           })();
           NODE
@@ -51,6 +53,6 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/kul-departures.json
-          git diff --cached --quiet || git commit -m 'Update KUL departures'
+          git add data/kul-departures.json data/kul-arrivals.json
+          git diff --cached --quiet || git commit -m 'Update KUL arrivals and departures'
           git push
