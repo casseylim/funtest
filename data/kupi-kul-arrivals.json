@@ -1,0 +1,734 @@
+{
+  "testedAt": "2026-09-29T04:25:05.875Z",
+  "source": "Kupi",
+  "flights": [
+    {
+      "flight": "AK 5745",
+      "airline": "Tawau",
+      "scheduled": "12:00",
+      "estimated": "12:00",
+      "destination": "TWU"
+    },
+    {
+      "flight": "AK 6119",
+      "airline": "Penang",
+      "scheduled": "12:00",
+      "estimated": "12:00",
+      "destination": "PEN"
+    },
+    {
+      "flight": "MH 6127",
+      "airline": "Doha",
+      "scheduled": "12:00",
+      "estimated": "12:05",
+      "destination": "DOH"
+    },
+    {
+      "flight": "AK 308",
+      "airline": "Hat Yai",
+      "scheduled": "12:10",
+      "estimated": "12:10",
+      "destination": "HDY"
+    },
+    {
+      "flight": "WY 5730",
+      "airline": "Sandakan",
+      "scheduled": "12:10",
+      "estimated": "12:10",
+      "destination": "SDK"
+    },
+    {
+      "flight": "FY 7721",
+      "airline": "Sandakan",
+      "scheduled": "12:10",
+      "estimated": "12:10",
+      "destination": "SDK"
+    },
+    {
+      "flight": "8M 9596",
+      "airline": "Sandakan",
+      "scheduled": "12:10",
+      "estimated": "12:10",
+      "destination": "SDK"
+    },
+    {
+      "flight": "QR 5465",
+      "airline": "Sandakan",
+      "scheduled": "12:10",
+      "estimated": "12:10",
+      "destination": "SDK"
+    },
+    {
+      "flight": "SQ 5641",
+      "airline": "Sandakan",
+      "scheduled": "12:10",
+      "estimated": "12:10",
+      "destination": "SDK"
+    },
+    {
+      "flight": "TK 7946",
+      "airline": "Sandakan",
+      "scheduled": "12:10",
+      "estimated": "12:15",
+      "destination": "SDK"
+    },
+    {
+      "flight": "FY 7338",
+      "airline": "Singapore",
+      "scheduled": "12:15",
+      "estimated": "12:15",
+      "destination": "SIN"
+    },
+    {
+      "flight": "SQ 5628",
+      "airline": "Singapore",
+      "scheduled": "12:15",
+      "estimated": "12:15",
+      "destination": "SIN"
+    },
+    {
+      "flight": "AY 6721",
+      "airline": "Singapore",
+      "scheduled": "12:15",
+      "estimated": "12:15",
+      "destination": "SIN"
+    },
+    {
+      "flight": "OD 399",
+      "airline": "Jakarta",
+      "scheduled": "12:15",
+      "estimated": "12:15",
+      "destination": "CGK"
+    },
+    {
+      "flight": "OD 381",
+      "airline": "Jakarta",
+      "scheduled": "12:15",
+      "estimated": "12:15",
+      "destination": "CGK"
+    },
+    {
+      "flight": "AK 5207",
+      "airline": "Kuching",
+      "scheduled": "12:15",
+      "estimated": "12:15",
+      "destination": "KCH"
+    },
+    {
+      "flight": "AK 175",
+      "airline": "Sihanoukville",
+      "scheduled": "12:15",
+      "estimated": "12:15",
+      "destination": "KOS"
+    },
+    {
+      "flight": "Z2 942",
+      "airline": "Manila",
+      "scheduled": "12:15",
+      "estimated": "12:15",
+      "destination": "MNL"
+    },
+    {
+      "flight": "QR 5480",
+      "airline": "Singapore",
+      "scheduled": "12:15",
+      "estimated": "12:20",
+      "destination": "SIN"
+    },
+    {
+      "flight": "OD 525",
+      "airline": "Bangkok",
+      "scheduled": "12:20",
+      "estimated": "12:20",
+      "destination": "DMK"
+    },
+    {
+      "flight": "OD 353",
+      "airline": "Surabaya",
+      "scheduled": "12:20",
+      "estimated": "12:20",
+      "destination": "SUB"
+    },
+    {
+      "flight": "AK 5175",
+      "airline": "Labuan",
+      "scheduled": "12:20",
+      "estimated": "12:25",
+      "destination": "LBU"
+    },
+    {
+      "flight": "AK 6335",
+      "airline": "Langkawi",
+      "scheduled": "12:25",
+      "estimated": "12:25",
+      "destination": "LGK"
+    },
+    {
+      "flight": "AF 7243",
+      "airline": "Singapore",
+      "scheduled": "12:25",
+      "estimated": "12:25",
+      "destination": "SIN"
+    },
+    {
+      "flight": "SK 8049",
+      "airline": "Singapore",
+      "scheduled": "12:25",
+      "estimated": "12:25",
+      "destination": "SIN"
+    },
+    {
+      "flight": "GA 9282",
+      "airline": "Jakarta",
+      "scheduled": "12:25",
+      "estimated": "12:30",
+      "destination": "CGK"
+    },
+    {
+      "flight": "OD 317",
+      "airline": "Banda Aceh",
+      "scheduled": "12:30",
+      "estimated": "12:30",
+      "destination": "BTJ"
+    },
+    {
+      "flight": "OD 7521",
+      "airline": "Bangkok",
+      "scheduled": "12:30",
+      "estimated": "12:30",
+      "destination": "DMK"
+    },
+    {
+      "flight": "OD 821",
+      "airline": "Seoul",
+      "scheduled": "12:30",
+      "estimated": "12:30",
+      "destination": "ICN"
+    },
+    {
+      "flight": "AK 5193",
+      "airline": "Sandakan",
+      "scheduled": "12:30",
+      "estimated": "12:30",
+      "destination": "SDK"
+    },
+    {
+      "flight": "OD 521",
+      "airline": "Bangkok",
+      "scheduled": "12:30",
+      "estimated": "12:30",
+      "destination": "DMK"
+    },
+    {
+      "flight": "EK 3462",
+      "airline": "Singapore",
+      "scheduled": "12:30",
+      "estimated": "12:35",
+      "destination": "SIN"
+    },
+    {
+      "flight": "OD 323",
+      "airline": "Medan",
+      "scheduled": "12:35",
+      "estimated": "12:35",
+      "destination": "KNO"
+    },
+    {
+      "flight": "OD 704",
+      "airline": "Jeddah",
+      "scheduled": "12:35",
+      "estimated": "12:35",
+      "destination": "JED"
+    },
+    {
+      "flight": "W2 4825",
+      "airline": "Ho Chi Minh City",
+      "scheduled": "12:35",
+      "estimated": "12:35",
+      "destination": "SGN"
+    },
+    {
+      "flight": "AK 6223",
+      "airline": "Kuala Terengganu",
+      "scheduled": "12:35",
+      "estimated": "12:35",
+      "destination": "TGG"
+    },
+    {
+      "flight": "OD 2408",
+      "airline": "Johor Bahru",
+      "scheduled": "12:35",
+      "estimated": "12:40",
+      "destination": "JHB"
+    },
+    {
+      "flight": "MH 9195",
+      "airline": "Hong Kong",
+      "scheduled": "12:40",
+      "estimated": "12:45",
+      "destination": "HKG"
+    },
+    {
+      "flight": "AK 430",
+      "airline": "Pekanbaru",
+      "scheduled": "12:45",
+      "estimated": "12:45",
+      "destination": "PKU"
+    },
+    {
+      "flight": "AK 6035",
+      "airline": "Johor Bahru",
+      "scheduled": "12:45",
+      "estimated": "12:45",
+      "destination": "JHB"
+    },
+    {
+      "flight": "MH 4485",
+      "airline": "Guangzhou",
+      "scheduled": "12:45",
+      "estimated": "12:45",
+      "destination": "CAN"
+    },
+    {
+      "flight": "FY 7355",
+      "airline": "Manila",
+      "scheduled": "12:50",
+      "estimated": "12:50",
+      "destination": "MNL"
+    },
+    {
+      "flight": "EY 5606",
+      "airline": "Da Nang",
+      "scheduled": "12:50",
+      "estimated": "12:50",
+      "destination": "DAD"
+    },
+    {
+      "flight": "TK 7684",
+      "airline": "Da Nang",
+      "scheduled": "12:50",
+      "estimated": "12:50",
+      "destination": "DAD"
+    },
+    {
+      "flight": "AK 5105",
+      "airline": "Kota Kinabalu",
+      "scheduled": "12:50",
+      "estimated": "12:50",
+      "destination": "BKI"
+    },
+    {
+      "flight": "MF 8687",
+      "airline": "Chongqing",
+      "scheduled": "12:50",
+      "estimated": "12:50",
+      "destination": "CKG"
+    },
+    {
+      "flight": "MF 847",
+      "airline": "Xiamen",
+      "scheduled": "12:34",
+      "estimated": "12:50",
+      "destination": "XMN"
+    },
+    {
+      "flight": "AK 544",
+      "airline": "Phu Quoc",
+      "scheduled": "12:32",
+      "estimated": "12:55",
+      "destination": "PQC"
+    },
+    {
+      "flight": "AK 390",
+      "airline": "Medan",
+      "scheduled": "12:55",
+      "estimated": "12:55",
+      "destination": "KNO"
+    },
+    {
+      "flight": "D7 219",
+      "airline": "Melbourne",
+      "scheduled": "12:55",
+      "estimated": "12:55",
+      "destination": "MEL"
+    },
+    {
+      "flight": "AK 128",
+      "airline": "Medan",
+      "scheduled": "12:55",
+      "estimated": "13:00",
+      "destination": "KNO"
+    },
+    {
+      "flight": "AK 461",
+      "airline": "Palembang",
+      "scheduled": "12:34",
+      "estimated": "13:00",
+      "destination": "PLM"
+    },
+    {
+      "flight": "AK 441",
+      "airline": "Banjarmasin",
+      "scheduled": "12:47",
+      "estimated": "13:05",
+      "destination": "BDJ"
+    },
+    {
+      "flight": "KL 3967",
+      "airline": "Hanoi",
+      "scheduled": "13:05",
+      "estimated": "13:05",
+      "destination": "HAN"
+    },
+    {
+      "flight": "OD 367",
+      "airline": "Praya",
+      "scheduled": "13:05",
+      "estimated": "13:05",
+      "destination": "LOP"
+    },
+    {
+      "flight": "FY 7457",
+      "airline": "Hanoi",
+      "scheduled": "13:05",
+      "estimated": "13:05",
+      "destination": "HAN"
+    },
+    {
+      "flight": "HU 7923",
+      "airline": "Chongqing",
+      "scheduled": "13:05",
+      "estimated": "13:05",
+      "destination": "CKG"
+    },
+    {
+      "flight": "MH 842",
+      "airline": "Balikpapan",
+      "scheduled": "13:05",
+      "estimated": "13:05",
+      "destination": "BPN"
+    },
+    {
+      "flight": "6E 3774",
+      "airline": "Hanoi",
+      "scheduled": "13:05",
+      "estimated": "13:05",
+      "destination": "HAN"
+    },
+    {
+      "flight": "WY 5624",
+      "airline": "Hanoi",
+      "scheduled": "13:05",
+      "estimated": "13:05",
+      "destination": "HAN"
+    },
+    {
+      "flight": "UL 2753",
+      "airline": "Hanoi",
+      "scheduled": "13:05",
+      "estimated": "13:05",
+      "destination": "HAN"
+    },
+    {
+      "flight": "QR 5449",
+      "airline": "Hanoi",
+      "scheduled": "13:05",
+      "estimated": "13:10",
+      "destination": "HAN"
+    },
+    {
+      "flight": "OD 357",
+      "airline": "Batam",
+      "scheduled": "13:10",
+      "estimated": "13:10",
+      "destination": "BTH"
+    },
+    {
+      "flight": "OD 9129",
+      "airline": "Jakarta",
+      "scheduled": "12:57",
+      "estimated": "13:10",
+      "destination": "CGK"
+    },
+    {
+      "flight": "AK 553",
+      "airline": "Vientiane",
+      "scheduled": "12:53",
+      "estimated": "13:10",
+      "destination": "VTE"
+    },
+    {
+      "flight": "AK 517",
+      "airline": "Hanoi",
+      "scheduled": "13:10",
+      "estimated": "13:15",
+      "destination": "HAN"
+    },
+    {
+      "flight": "AK 706",
+      "airline": "Singapore",
+      "scheduled": "13:15",
+      "estimated": "13:15",
+      "destination": "SIN"
+    },
+    {
+      "flight": "KT 165",
+      "airline": "Phnom Penh",
+      "scheduled": "13:15",
+      "estimated": "13:15",
+      "destination": "KTI"
+    },
+    {
+      "flight": "MF 8655",
+      "airline": "Changsha",
+      "scheduled": "13:03",
+      "estimated": "13:20",
+      "destination": "CSX"
+    },
+    {
+      "flight": "AK 881",
+      "airline": "Bangkok",
+      "scheduled": "12:55",
+      "estimated": "13:20",
+      "destination": "DMK"
+    },
+    {
+      "flight": "AK 5233",
+      "airline": "Kuching",
+      "scheduled": "13:20",
+      "estimated": "13:25",
+      "destination": "KCH"
+    },
+    {
+      "flight": "TK 7688",
+      "airline": "Phuket",
+      "scheduled": "13:30",
+      "estimated": "13:30",
+      "destination": "HKT"
+    },
+    {
+      "flight": "W2 3813",
+      "airline": "Ho Chi Minh City",
+      "scheduled": "13:30",
+      "estimated": "13:30",
+      "destination": "SGN"
+    },
+    {
+      "flight": "6E 3711",
+      "airline": "Penang",
+      "scheduled": "13:30",
+      "estimated": "13:30",
+      "destination": "PEN"
+    },
+    {
+      "flight": "FY 4107",
+      "airline": "Penang",
+      "scheduled": "13:30",
+      "estimated": "13:30",
+      "destination": "PEN"
+    },
+    {
+      "flight": "QR 5023",
+      "airline": "Penang",
+      "scheduled": "13:30",
+      "estimated": "13:30",
+      "destination": "PEN"
+    },
+    {
+      "flight": "TK 7959",
+      "airline": "Penang",
+      "scheduled": "13:30",
+      "estimated": "13:30",
+      "destination": "PEN"
+    },
+    {
+      "flight": "8M 9549",
+      "airline": "Penang",
+      "scheduled": "13:30",
+      "estimated": "13:30",
+      "destination": "PEN"
+    },
+    {
+      "flight": "UL 2145",
+      "airline": "Penang",
+      "scheduled": "13:30",
+      "estimated": "13:30",
+      "destination": "PEN"
+    },
+    {
+      "flight": "BI 3054",
+      "airline": "Penang",
+      "scheduled": "13:30",
+      "estimated": "13:30",
+      "destination": "PEN"
+    },
+    {
+      "flight": "SV 6357",
+      "airline": "Penang",
+      "scheduled": "13:30",
+      "estimated": "13:30",
+      "destination": "PEN"
+    },
+    {
+      "flight": "GA 9388",
+      "airline": "Penang",
+      "scheduled": "13:30",
+      "estimated": "13:30",
+      "destination": "PEN"
+    },
+    {
+      "flight": "MH 5728",
+      "airline": "Singapore",
+      "scheduled": "13:35",
+      "estimated": "13:35",
+      "destination": "SIN"
+    },
+    {
+      "flight": "AK 6443",
+      "airline": "Kota Bharu",
+      "scheduled": "13:35",
+      "estimated": "13:35",
+      "destination": "KBR"
+    },
+    {
+      "flight": "AK 5107",
+      "airline": "Kota Kinabalu",
+      "scheduled": "13:51",
+      "estimated": "13:36",
+      "destination": "BKI"
+    },
+    {
+      "flight": "TK 7672",
+      "airline": "Kota Kinabalu",
+      "scheduled": "13:36",
+      "estimated": "13:40",
+      "destination": "BKI"
+    },
+    {
+      "flight": "IU 168",
+      "airline": "Banda Aceh",
+      "scheduled": "13:40",
+      "estimated": "13:40",
+      "destination": "BTJ"
+    },
+    {
+      "flight": "FY 7324",
+      "airline": "Singapore",
+      "scheduled": "13:40",
+      "estimated": "13:40",
+      "destination": "SIN"
+    },
+    {
+      "flight": "QR 5496",
+      "airline": "Singapore",
+      "scheduled": "13:40",
+      "estimated": "13:40",
+      "destination": "SIN"
+    },
+    {
+      "flight": "SQ 5606",
+      "airline": "Singapore",
+      "scheduled": "13:40",
+      "estimated": "13:40",
+      "destination": "SIN"
+    },
+    {
+      "flight": "GA 9306",
+      "airline": "Surabaya",
+      "scheduled": "13:40",
+      "estimated": "13:40",
+      "destination": "SUB"
+    },
+    {
+      "flight": "MH 2743",
+      "airline": "Bintulu",
+      "scheduled": "13:40",
+      "estimated": "13:45",
+      "destination": "BTU"
+    },
+    {
+      "flight": "AK 833",
+      "airline": "Phuket",
+      "scheduled": "13:45",
+      "estimated": "13:45",
+      "destination": "HKT"
+    },
+    {
+      "flight": "AK 491",
+      "airline": "Pontianak",
+      "scheduled": "13:45",
+      "estimated": "13:45",
+      "destination": "PNK"
+    },
+    {
+      "flight": "D7 505",
+      "airline": "Seoul",
+      "scheduled": "13:45",
+      "estimated": "13:45",
+      "destination": "ICN"
+    },
+    {
+      "flight": "6E 3722",
+      "airline": "Langkawi",
+      "scheduled": "13:45",
+      "estimated": "13:45",
+      "destination": "LGK"
+    },
+    {
+      "flight": "OD 9127",
+      "airline": "Surabaya",
+      "scheduled": "13:45",
+      "estimated": "13:50",
+      "destination": "SUB"
+    },
+    {
+      "flight": "AK 6321",
+      "airline": "Langkawi",
+      "scheduled": "13:50",
+      "estimated": "13:50",
+      "destination": "LGK"
+    },
+    {
+      "flight": "MH 2609",
+      "airline": "Labuan",
+      "scheduled": "13:50",
+      "estimated": "13:50",
+      "destination": "LBU"
+    },
+    {
+      "flight": "MH 856",
+      "airline": "Yogyakarta",
+      "scheduled": "13:39",
+      "estimated": "13:50",
+      "destination": "YIA"
+    },
+    {
+      "flight": "MH 846",
+      "airline": "Makassar",
+      "scheduled": "13:50",
+      "estimated": "13:55",
+      "destination": "UPG"
+    },
+    {
+      "flight": "AK 5873",
+      "airline": "Sibu",
+      "scheduled": "14:00",
+      "estimated": "14:00",
+      "destination": "SBW"
+    },
+    {
+      "flight": "AK 331",
+      "airline": "Makassar",
+      "scheduled": "14:00",
+      "estimated": "14:00",
+      "destination": "UPG"
+    },
+    {
+      "flight": "OD 706",
+      "airline": "Jeddah",
+      "scheduled": "14:00",
+      "estimated": "",
+      "destination": "JED"
+    }
+  ]
+}
