@@ -31,7 +31,7 @@ jobs:
             SV:'Saudia', CZ:'China Southern', MU:'China Eastern', CA:'Air China',
             KE:'Korean Air', VN:'Vietnam Airlines', PR:'Philippine Airlines',
             KQ:'Kenya Airways', ET:'Ethiopian Airlines', NZ:'Air New Zealand',
-            8B:'TransNusa', 5J:'Cebu Pacific', VJ:'VietJet Air'
+            '8B':'TransNusa', '5J':'Cebu Pacific', VJ:'VietJet Air'
           };
           const flightRe = /\b([A-Z0-9]{1,3}\s?\d{1,5})\b/g;
           (async () => {
